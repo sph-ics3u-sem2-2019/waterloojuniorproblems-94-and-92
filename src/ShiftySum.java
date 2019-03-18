@@ -24,7 +24,7 @@ public class ShiftySum {
 		 * 15) 7868,2 = 873348
 		 */
 		
-		int n,k,p,result,a,b,c,d,e;
+		int n,k,p,a,b,c,d,e;
 		n=in.nextInt();
 		k=in.nextInt();
 		a=n*10;
@@ -35,8 +35,7 @@ public class ShiftySum {
 		
 		if (k==5) {
 			System.out.println(n+a+b+c+d+e);
-		}
-		if (k==4) {
+		} if (k==4) {
 			System.out.println(n+a+b+c+d);
 		} if (k==3) {
 			System.out.println(n+a+b+c);

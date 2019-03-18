@@ -33,11 +33,7 @@ public class Telemarketer {
 	int num4=in.nextInt();
 	
 	
-	if (num1==8 || num1==9){
-		System.out.println("ignore");
-	} if (num4==8 || num4==9) {
-		System.out.println("ignore");
-	} if (num2 == num3) {
+	if ((num1==8 || num1==9) && (num4==8 || num4==9) && (num2 == num3)){
 		System.out.println("ignore");
 	} 
 	else {
