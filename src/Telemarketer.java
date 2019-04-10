@@ -40,7 +40,7 @@ public class Telemarketer {
 		System.out.println("answer");
 	}
 	
-	// If 3 ignores show then it will be an ignore but if one answer then its an answer
+	
 	
 		
 
